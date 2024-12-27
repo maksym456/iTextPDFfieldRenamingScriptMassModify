@@ -1,0 +1,66 @@
+
+        String from;
+        String to;
+        from = "athletics";
+        to = "animalken";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "brawl";
+        to = "etiquette";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "craft";
+        to = "insight";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "drive";
+        to = "intimidation";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "firearms";
+        to = "leadership";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "melee";
+        to = "performance";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "larceny";
+        to = "persuasion";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "stealth";
+        to = "streetwise";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");
+        from = "survival";
+        to = "subterfuge";
+        for (int i = 1; i <= 5; i++) {
+            copyField(form, pdfDoc, from+i+"dot", to+i+"dot");
+            copyField(form, pdfDoc, from+i, to+i);
+        }
+        copyField(form, pdfDoc, from+"clear", to+"clear");

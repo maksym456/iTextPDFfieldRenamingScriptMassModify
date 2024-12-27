@@ -1,0 +1,27 @@
+
+        int i;
+        int j;
+        i=1;
+        j=9;
+        copyField(form, pdfDoc, "health" + i + "full", "health" + j + "full");
+        copyField(form, pdfDoc, "health" + i + "majorDMG", "health" + j + "majorDMG");
+        copyField(form, pdfDoc, "health" + i + "minorDMG", "health" + j + "minorDMG");
+        copyField(form, pdfDoc, "health" + i, "health" + j);
+        i=2;
+        j=10;
+        copyField(form, pdfDoc, "health" + i + "full", "health" + j + "full");
+        copyField(form, pdfDoc, "health" + i + "majorDMG", "health" + j + "majorDMG");
+        copyField(form, pdfDoc, "health" + i + "minorDMG", "health" + j + "minorDMG");
+        copyField(form, pdfDoc, "health" + i, "health" + j);
+        i=3;
+        j=7;
+        copyField(form, pdfDoc, "health" + i + "full", "health" + j + "full");
+        copyField(form, pdfDoc, "health" + i + "majorDMG", "health" + j + "majorDMG");
+        copyField(form, pdfDoc, "health" + i + "minorDMG", "health" + j + "minorDMG");
+        copyField(form, pdfDoc, "health" + i, "health" + j);
+        i=4;
+        j=8;
+        copyField(form, pdfDoc, "health" + i + "full", "health" + j + "full");
+        copyField(form, pdfDoc, "health" + i + "majorDMG", "health" + j + "majorDMG");
+        copyField(form, pdfDoc, "health" + i + "minorDMG", "health" + j + "minorDMG");
+        copyField(form, pdfDoc, "health" + i, "health" + j);
